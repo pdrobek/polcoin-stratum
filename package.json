@@ -1,0 +1,38 @@
+{
+    "name": "stratum-pool",
+    "version": "0.1.9",
+    "description": "High performance Stratum poolserver in Node.js",
+    "keywords": [
+        "stratum",
+        "mining",
+        "pool",
+        "server",
+        "poolserver",
+        "bitcoin",
+        "litecoin",
+        "scrypt"
+    ],
+    "homepage": "https://github.com/pdrobek/polcoin-stratum",
+    "bugs": {
+        "url": "https://github.com/pdrobek/polcoin-stratum/issues"
+    },
+    "license": "GPL-2.0",
+    "author": "Matthew Little",
+    "contributors": [
+    "pdrobek"
+    ],
+    "main": "lib/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pdrobek/polcoin-stratum"
+    },
+    "dependencies": {
+        "multi-hashing": "https://github.com/pdrobek/polcoin-node-multi-hashing",
+        "bignum": "0.13.1",
+        "base58-native": "*",
+        "async": "*"
+    },
+    "engines": {
+        "node": ">=0.10"
+    }
+}
